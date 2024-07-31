@@ -1,0 +1,22 @@
+package co.edu.kommit;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+import co.edu.kommit.model.ListaDoble;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        ListaDoble<Integer> listaEnteros = new ListaDoble<>();
+		listaEnteros.agregarInicio(1);
+		listaEnteros.agregarInicio(2);
+		listaEnteros.agregarfinal(3);
+		listaEnteros.agregarInicio(4);
+		listaEnteros.agregarfinal(5);
+		listaEnteros.agregar(6,2);
+
+		listaEnteros.imprimirLista();
+	
+		
+		
+}

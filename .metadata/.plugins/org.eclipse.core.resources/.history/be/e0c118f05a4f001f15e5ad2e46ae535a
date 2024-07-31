@@ -1,0 +1,32 @@
+package co.edu.kommit;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        ListaDoble<Integer> listaEnteros = new ListaDoble<>();
+		listaEnteros.agregarInicio(1);
+		listaEnteros.agregarInicio(2);
+		listaEnteros.agregarfinal(3);
+		listaEnteros.agregarInicio(4);
+		listaEnteros.agregarfinal(5);
+		listaEnteros.agregar(6,2);
+//		
+//		
+//		borrarPosicionesParesOImpares(listaEnteros);
+//		
+//		listaEnteros.imprimirLista();
+	
+		
+		Iterator<Integer> iter = listaEnteros.iterator();
+		
+		while (iter.hasNext()) 
+		{
+			System.out.println(iter);
+			
+		}
+	
+                
+                
+    }
+	
+}
